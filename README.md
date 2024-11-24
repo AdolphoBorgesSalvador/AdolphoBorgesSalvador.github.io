@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Dev Portfolio
 
 🚀 **[Dev Portfolio V2 has arrived. Meet Devfolio, a modern portfolio + blog template built with GatsbyJS and TailwindCSS](https://github.com/RyanFitzgerald/devfolio)** 🚀
@@ -343,3 +344,6 @@ The optional section blocks have styling for h3 (the block title), h4, p, and ul
 ## License
 
 Completely free (MIT)! See [LICENSE.md](LICENSE.md) for more.
+=======
+# AdolphoBorgesSalvador.github.io
+>>>>>>> 4cdf59a44632e717f272ef9b4fd0b366aeb404bd
