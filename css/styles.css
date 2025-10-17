@@ -132,7 +132,7 @@ header a:hover,header a:focus-visible{
 #courses .education-block{
   display:flex;flex-direction:column;align-items:flex-start;text-align:left;padding:20px 24px
 }
-#courses .education-block h3{color:var(--heading);font-weight:800;font-size:1.2rem;margin:0 0 6px;display:block}
+#courses .education-block h3{color:var(--heading);font-weight:900;font-size:1.35rem;margin:0 0 6px;display:block}
 #courses .education-block span{color:var(--text-dim);font-weight:600;font-size:.95rem;margin-bottom:10px;display:block}
 #courses .education-block ul{margin:0;padding-left:20px;color:var(--text-dim);line-height:1.6}
 #courses .education-block li{margin-bottom:6px}
@@ -175,12 +175,12 @@ header a:hover,header a:focus-visible{
   padding:80px 16px;text-align:center;background:var(--bg);
   border-top:1px solid var(--border);border-bottom:1px solid var(--border)
 }
-#languages h2{font-size:clamp(28px,4vw,36px);font-weight:900;color:var(--heading);margin-bottom:26px}
+#languages h2{font-size:clamp(30px,4.2vw,38px);font-weight:900;color:var(--heading);margin-bottom:26px}
 .language-list{
   list-style:none;margin:0 auto;padding:0;max-width:700px;display:flex;flex-direction:column;
-  gap:18px;font-size:1.1rem;color:var(--text)
+  gap:18px;font-size:1.2rem;color:var(--text)
 }
-.language-list li strong{color:var(--heading);font-weight:900}
+.language-list li strong{color:var(--heading);font-weight:900; font-size: 1.22rem;}
 
 /* =============================== CONTACT =============================== */
 #contact{
