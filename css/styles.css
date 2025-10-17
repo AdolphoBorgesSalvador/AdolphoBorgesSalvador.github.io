@@ -507,3 +507,58 @@ footer { padding: 40px 0; border-top: 1px solid var(--border); background: var(-
 header ul {
   box-shadow: 0 6px 30px rgba(2,8,23,.18);
 }
+
+
+/* ======= RESPONSIVIDADE DA TIMELINE ======= */
+
+/* Versão padrão (desktop) já está OK no CSS original */
+/* Ajustes para telas menores */
+@media (max-width: 768px) {
+  #experience-timeline {
+    padding-left: 0;
+  }
+
+  #experience-timeline:before {
+    display: none; /* remove a linha vertical */
+  }
+
+  .vtimeline-date {
+    position: relative;
+    left: 0;
+    width: auto;
+    text-align: left;
+    font-weight: 700;
+    color: var(--brand);
+    margin-bottom: 8px;
+    display: block;
+  }
+
+  .vtimeline-icon {
+    display: none; /* remove ícone lateral */
+  }
+
+  .vtimeline-content {
+    margin: 0 0 22px 0;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    padding: 18px;
+    border-radius: 12px;
+    box-shadow: var(--shadow-1);
+  }
+
+  .vtimeline-content h3 {
+    font-size: 1.1rem;
+    margin-bottom: 4px;
+  }
+
+  .vtimeline-content h4 {
+    font-size: 0.95rem;
+    margin-bottom: 10px;
+    color: var(--text);
+  }
+
+  .vtimeline-content ul {
+    font-size: 0.95rem;
+    padding-left: 18px;
+  }
+}
