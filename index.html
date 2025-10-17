@@ -81,10 +81,10 @@
                 </div>
                 <div class="col-md-8">
                     <p>
-                        Engenheiro de Dados especializado em construção de pipelines de dados (Python, SQL, Docker) 
-                        e modelagem relacional e dimensional para suporte a análises estratégicas. Experiência em 
-                        previsão de demanda utilizando modelos ARIMA e LSTM, integração com ERP/SAP e automação de 
-                        processos ETL voltados ao Supply Chain. Também atuo na criação de dashboards interativos no 
+                        Engenheiro de Dados especializado em construção de pipelines de dados (Python, SQL, Docker)
+                        e modelagem relacional e dimensional para suporte a análises estratégicas. Experiência em
+                        previsão de demanda utilizando modelos ARIMA e LSTM, integração com ERP/SAP e automação de
+                        processos ETL voltados ao Supply Chain. Também atuo na criação de dashboards interativos no
                         Power BI, transformando dados operacionais em insights acionáveis.
                     </p>
                     <p>
@@ -144,12 +144,81 @@
             <h4>Engenharia de Produção</h4>
             <ul>
                 <li>Lean, Six Sigma, Qualidade e Supply Chain.</li>
-                <li>Aplicação de métodos quantitativos e ferramentas analíticas para tomada de decisão em Supply Chain.</li>
+                <li>Aplicação de métodos quantitativos e ferramentas analíticas para tomada de decisão em Supply Chain.
+                </li>
 
             </ul>
         </div>
     </div>
     <!-- End #education -->
+
+    <!-- Cursos -->
+    <div id="courses" class="background-alt">
+        <h2 class="heading">Cursos e Certificações</h2>
+        <div class="container">
+
+            <div class="education-block">
+                <h3>Python para Análise de Dados</h3>
+                <span class="education-date">Alura · 2020</span>
+                <ul>
+                    <li>Manipulação e análise de dados com Pandas e NumPy.</li>
+                    <li>Tratamento, visualização e limpeza de dados em Python.</li>
+                </ul>
+            </div>
+
+            <div class="education-block">
+                <h3>Microsoft SQL Server</h3>
+                <span class="education-date">Alura · 2023</span>
+                <ul>
+                    <li>Consultas avançadas em SQL, modelagem e performance tuning.</li>
+                    <li>Integração de dados e automação de rotinas SQL para BI.</li>
+                </ul>
+            </div>
+
+            <div class="education-block">
+                <h3>Desenvolvimento em Django</h3>
+                <span class="education-date">Alura · 2022</span>
+                <ul>
+                    <li>Criação de aplicações web completas com Django Framework.</li>
+                    <li>Integração com banco de dados e templates dinâmicos.</li>
+                </ul>
+            </div>
+
+            <div class="education-block">
+                <h3>C# Avançado</h3>
+                <span class="education-date">Alura · 2024</span>
+                <ul>
+                    <li>Orientação a objetos, LINQ e boas práticas de arquitetura.</li>
+                    <li>Desenvolvimento de APIs e integração com bancos relacionais.</li>
+                </ul>
+            </div>
+
+            <div class="education-block">
+                <h3>Flutter para Desenvolvimento Mobile</h3>
+                <span class="education-date">Alura · 2022</span>
+                <ul>
+                    <li>Criação de interfaces reativas com Dart e Flutter.</li>
+                    <li>Consumo de APIs e construção de aplicativos multiplataforma.</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <!-- End #courses -->
+
+
+    <!-- Línguas -->
+    <div id="languages">
+        <h2 class="heading">Idiomas</h2>
+        <div class="container">
+            <ul class="language-list">
+                <li><strong>Português:</strong> Nativo</li>
+                <li><strong>Inglês:</strong> Avançado (leitura, escrita e conversação)</li>
+            </ul>
+        </div>
+    </div>
+    <!-- End #languages -->
+
 
     <!-- Projetos -->
     <div id="projects" class="background-alt">
@@ -157,23 +226,31 @@
         <div class="container">
             <div class="row">
 
-<div class="project shadow-large">
-  <div class="project-image">
-    <!-- Ajuste a imagem/thumbnail se quiser -->
-    <img src="images/psi_pipeline.jpg" alt="Pipeline PSI: classificação ABC/XYZ e projeção de cobertura" loading="lazy" width="300" height="200">
-  </div>
-  <div class="project-info">
-    <h3>Planejamento de Estoque (ABC/XYZ + Cobertura)</h3>
-    <p>
-      Pipeline em Python que lê planilhas <strong>PSI</strong> e <strong>Mapa</strong> (variáveis de ambiente via <code>.env</code>),
-      executa cálculo de <strong>médias 12/6/3 meses</strong>, <strong>mediana</strong>, <strong>classificação ABC/XYZ</strong>,
-      soma de <strong>importações previstas</strong> e projeta <strong>saldo mês a mês</strong> (Jul→Out/25) para estimar
-      <strong>cobertura (MOS)</strong> com/sem importação e sinalizar <em>status</em> (ex.: “Necessita compra Outubro”).
-      Suporta integração com <strong>PostgreSQL</strong> (SQLAlchemy) e gera tabelas finais para decisão.
-    </p>
-    <a href="https://github.com/AdolphoBorgesSalvador/analise_psi" target="_blank" rel="noopener">Código no GitHub</a>
-  </div>
-</div>
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <!-- Ajuste a imagem/thumbnail se quiser -->
+                        <img src="images/psi_pipeline.jpg"
+                            alt="Pipeline PSI: classificação ABC/XYZ e projeção de cobertura" loading="lazy" width="300"
+                            height="200">
+                    </div>
+                    <div class="project-info">
+                        <h3>Planejamento de Estoque (ABC/XYZ + Cobertura)</h3>
+                        <p>
+                            Pipeline em Python que lê planilhas <strong>PSI</strong> e <strong>Mapa</strong> (variáveis
+                            de ambiente via <code>.env</code>),
+                            executa cálculo de <strong>médias 12/6/3 meses</strong>, <strong>mediana</strong>,
+                            <strong>classificação ABC/XYZ</strong>,
+                            soma de <strong>importações previstas</strong> e projeta <strong>saldo mês a mês</strong>
+                            (Jul→Out/25) para estimar
+                            <strong>cobertura (MOS)</strong> com/sem importação e sinalizar <em>status</em> (ex.:
+                            “Necessita compra Outubro”).
+                            Suporta integração com <strong>PostgreSQL</strong> (SQLAlchemy) e gera tabelas finais para
+                            decisão.
+                        </p>
+                        <a href="https://github.com/AdolphoBorgesSalvador/analise_psi" target="_blank"
+                            rel="noopener">Código no GitHub</a>
+                    </div>
+                </div>
 
 
                 <div class="project shadow-large">
@@ -234,7 +311,7 @@
             <li>Modelagem Dimensional</li>
             <li>Django</li>
             <li>ETL Automation</li>
-            <li>R</li>            
+            <li>R</li>
             <li>Hadoop</li>
             <li>C#</li>
             <li>Flutter</li>
@@ -243,28 +320,29 @@
     </div>
     <!-- End #skills -->
 
-<!-- Contato -->
-<div id="contact">
-  <h2>Entre em Contato</h2>
-  <p>Envie um e-mail para <a href="mailto:Adolpho.b@outlook.com">Adolpho.b@outlook.com</a> ou utilize o formulário abaixo:</p>
+    <!-- Contato -->
+    <div id="contact">
+        <h2>Entre em Contato</h2>
+        <p>Envie um e-mail para <a href="mailto:Adolpho.b@outlook.com">Adolpho.b@outlook.com</a> ou utilize o formulário
+            abaixo:</p>
 
-  <div id="contact-form">
-    <form method="POST" action="https://formspree.io/f/mwprynzr" id="form">
-      <input type="hidden" name="_subject" value="Contato do site pessoal">
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/f/mwprynzr" id="form">
+                <input type="hidden" name="_subject" value="Contato do site pessoal">
 
-      <label for="email">Seu Email:</label>
-      <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+                <label for="email">Seu Email:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu email" required>
 
-      <label for="message">Sua Mensagem:</label>
-      <textarea id="message" name="message" placeholder="Digite sua mensagem aqui" required></textarea>
+                <label for="message">Sua Mensagem:</label>
+                <textarea id="message" name="message" placeholder="Digite sua mensagem aqui" required></textarea>
 
-      <button type="submit">Enviar</button>
+                <button type="submit">Enviar</button>
 
-      <p id="form-status" style="margin-top: 10px;"></p>
-    </form>
-  </div>
-</div>
-<!-- End #contact -->
+                <p id="form-status" style="margin-top: 10px;"></p>
+            </form>
+        </div>
+    </div>
+    <!-- End #contact -->
 
 
     <!-- Footer -->
