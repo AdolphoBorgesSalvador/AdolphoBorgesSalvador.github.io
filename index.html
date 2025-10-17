@@ -242,24 +242,29 @@
     </div>
     <!-- End #skills -->
 
-    <!-- Contato -->
-    <div id="contact">
-        <h2>Entre em Contato</h2>
-        <p>Envie um e-mail para <a href="mailto:Adolpho.b@outlook.com">Adolpho.b@outlook.com</a> ou utilize o formulário
-            abaixo:</p>
-        <div id="contact-form">
-            <!-- Substitua o endpoint do Formspree pelo seu -->
-            <form method="POST" action="https://formspree.io/f/mwprynzr">
-                <input type="hidden" name="_subject" value="Contato do site pessoal">
-                <label for="email">Seu Email:</label>
-                <input type="email" id="email" name="_replyto" placeholder="Digite seu email" required>
-                <label for="message">Sua Mensagem:</label>
-                <textarea id="message" name="message" placeholder="Digite sua mensagem aqui" required></textarea>
-                <button type="submit">Enviar</button>
-            </form>
-        </div>
-    </div>
-    <!-- End #contact -->
+<!-- Contato -->
+<div id="contact">
+  <h2>Entre em Contato</h2>
+  <p>Envie um e-mail para <a href="mailto:Adolpho.b@outlook.com">Adolpho.b@outlook.com</a> ou utilize o formulário abaixo:</p>
+
+  <div id="contact-form">
+    <form method="POST" action="https://formspree.io/f/mwprynzr" id="form">
+      <input type="hidden" name="_subject" value="Contato do site pessoal">
+
+      <label for="email">Seu Email:</label>
+      <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+
+      <label for="message">Sua Mensagem:</label>
+      <textarea id="message" name="message" placeholder="Digite sua mensagem aqui" required></textarea>
+
+      <button type="submit">Enviar</button>
+
+      <p id="form-status" style="margin-top: 10px;"></p>
+    </form>
+  </div>
+</div>
+<!-- End #contact -->
+
 
     <!-- Footer -->
     <footer>
